@@ -1,0 +1,38 @@
+.login{
+-fx-background-color:linear-gradient(to bottom right, #000000, #464545,#8d8c8c,#979696);
+}
+/* Define the base style for the button */
+.styled_button {
+    -fx-background-color: green;  /* Set button background to green */
+    -fx-text-fill: white;  /* Set text color to white */
+    -fx-border-radius: 5px;  /* Rounded corners */
+    -fx-padding: 10px 20px;  /* Padding inside the button */
+    -fx-font-size: 16px;  /* Font size */
+    -fx-cursor: hand;  /* Change cursor to hand when hovered */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 8, 0, 2, 2); /* Subtle shadow */
+}
+
+/* Hover effect */
+.styled_button:hover {
+    -fx-background-color: darkgreen;  /* Darker green when hovered */
+    -fx-scale-x: 1.1;  /* Slightly scale button on hover */
+    -fx-scale-y: 1.1;  /* Slightly scale button on hover */
+}
+
+/* Focus effect */
+.styled_button:focused {
+    -fx-effect: dropshadow(gaussian, rgba(0, 255, 0, 0.8), 10, 0, 0, 0); /* Green focus glow */
+    -fx-border-color: darkgreen;  /* Dark green border on focus */
+}
+.shadow{
+-fx-effect:dropshadow(three-pass-box,rgba(0,0,0,0.5),6,0,0,0);
+}
+.whit_pg{
+-fx-background-color:#fff;
+-fx-background-radius:5px;
+}
+.cards{
+-fx-background-color: linear-gradient(to bottom right, #68bc8c, #4b8663,#97dab2);
+-fx-background-radius:5px;
+}
+
